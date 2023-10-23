@@ -50,9 +50,9 @@ export const FooterForm = ({ className, placeholder }: FooterFormProps) => {
       />
       <button
         className={clsx(
-          "absolute right-0 top-0 flex h-[4.8rem] w-[6.4rem] items-center",
-          "justify-center rounded-[2.8rem] bg-button shadow-button",
-          "hover:opacity-50",
+          "absolute right-0 top-0 flex h-[4.8rem] w-[6.4rem]",
+          "touch-manipulation items-center justify-center rounded-[2.8rem]",
+          "bg-button shadow-button hover:opacity-50",
           "desktop:h-[5.6rem] desktop:w-[10rem]"
         )}
         type="submit">
